@@ -22,7 +22,7 @@
     {
         "psr-4":
         {
-            "conveyancer\\app\\": "",
+            "conveyancer\\app\\": ""
         }
     }
 }
