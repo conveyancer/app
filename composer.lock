@@ -1,0 +1,203 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "90b5a5b5985299e9984a99bdb4ef05d4",
+    "packages": [
+        {
+            "name": "conveyancer/config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conveyancer/config.git",
+                "reference": "81325be6feb8bbf016094e77033211f8c5b682d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/conveyancer/config/81325be6feb8bbf016094e77033211f8c5b682d5.zip",
+                "reference": "81325be6feb8bbf016094e77033211f8c5b682d5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/infrastructure.php",
+                    "src/functions.php"
+                ],
+                "psr-4": {
+                    "conveyancer\\config\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "conveyancer PHP config class.",
+            "homepage": "https://github.com/conveyancer/config",
+            "keywords": [
+                "conveyancer",
+                "conveyancer config",
+                "php-frame"
+            ],
+            "time": "2018-01-27T14:09:17+00:00"
+        },
+        {
+            "name": "conveyancer/framework",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conveyancer/framework.git",
+                "reference": "cadd0bd3d56767336aea4ac8f0bde571d73064b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/conveyancer/framework/cadd0bd3d56767336aea4ac8f0bde571d73064b8.zip",
+                "reference": "cadd0bd3d56767336aea4ac8f0bde571d73064b8",
+                "shasum": ""
+            },
+            "require": {
+                "conveyancer/config": "dev-master",
+                "conveyancer/logger": "dev-master",
+                "conveyancer/tool": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "conveyancer\\framework\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "conveyancer PHP framework class.",
+            "homepage": "https://github.com/conveyancer/framework",
+            "keywords": [
+                "conveyancer",
+                "conveyancer framework",
+                "php-frame"
+            ],
+            "time": "2018-01-27T14:09:29+00:00"
+        },
+        {
+            "name": "conveyancer/logger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conveyancer/logger.git",
+                "reference": "461c9803c8e165d1fdd1ab8c1755c3c672d826ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/conveyancer/logger/461c9803c8e165d1fdd1ab8c1755c3c672d826ec.zip",
+                "reference": "461c9803c8e165d1fdd1ab8c1755c3c672d826ec",
+                "shasum": ""
+            },
+            "require": {
+                "conveyancer/config": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "conveyancer\\logger\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "conveyancer PHP logger class.",
+            "homepage": "https://github.com/conveyancer/logger",
+            "keywords": [
+                "conveyancer",
+                "conveyancer logger",
+                "php-frame"
+            ],
+            "time": "2018-01-27T14:10:30+00:00"
+        },
+        {
+            "name": "conveyancer/tool",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/conveyancer/tool.git",
+                "reference": "a1eb4d02061c1c088d70ae645326b4a75eddac5e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/conveyancer/tool/a1eb4d02061c1c088d70ae645326b4a75eddac5e.zip",
+                "reference": "a1eb4d02061c1c088d70ae645326b4a75eddac5e",
+                "shasum": ""
+            },
+            "require": {
+                "conveyancer/config": "dev-master",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "conveyancer\\tool\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Yan Tianzeng",
+                    "email": "qinuoyun@qq.com",
+                    "homepage": "http://www.ub-u7.com/"
+                }
+            ],
+            "description": "conveyancer PHP tool class.",
+            "homepage": "https://github.com/conveyancer/tool",
+            "keywords": [
+                "conveyancer",
+                "conveyancer tool",
+                "php-frame"
+            ],
+            "time": "2018-01-27T14:10:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "conveyancer/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6.0"
+    },
+    "platform-dev": []
+}
