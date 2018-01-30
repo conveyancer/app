@@ -23,7 +23,13 @@
     {
         "psr-4":
         {
-            "conveyancer\\app\\": ""
-        }
+            "conveyancer\\app\\": "",
+            "server\\connector\\": "",
+        },
+        "classmap": [
+            "server/controllers",
+            "server/connector",
+            "server/models"
+        ]
     }
 }

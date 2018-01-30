@@ -9,13 +9,12 @@ use \conveyancer\framework\kernel;
 
 tool::test();
 
+logger::test();
+
 tool::test();
 
 logger::test();
 
-tool::test();
-tool::test();
-tool::test();
 tool::test();
 
 // for ($i = 0; $i < 10000; $i++) {

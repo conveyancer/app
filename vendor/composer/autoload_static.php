@@ -45,11 +45,16 @@ class ComposerStaticInit5835ae155b4340cc2ef1492506a4fbdd
         ),
     );
 
+    public static $classMap = array (
+        'server\\connector\\tool39ab32c5aeb56c9f5ae17f073ce31023' => __DIR__ . '/../..' . '/server/connector/tool39ab32c5aeb56c9f5ae17f073ce31023.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit5835ae155b4340cc2ef1492506a4fbdd::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit5835ae155b4340cc2ef1492506a4fbdd::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit5835ae155b4340cc2ef1492506a4fbdd::$classMap;
 
         }, null, ClassLoader::class);
     }
