@@ -6,7 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'server\\connector\\' => array($baseDir . '/'),
     'conveyancer\\tool\\' => array($vendorDir . '/conveyancer/tool/src'),
+    'conveyancer\\staticize\\' => array($vendorDir . '/conveyancer/framework/lib'),
     'conveyancer\\logger\\' => array($vendorDir . '/conveyancer/logger/src'),
     'conveyancer\\framework\\' => array($vendorDir . '/conveyancer/framework/src'),
     'conveyancer\\config\\' => array($vendorDir . '/conveyancer/config/src'),

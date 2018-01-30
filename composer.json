@@ -24,7 +24,7 @@
         "psr-4":
         {
             "conveyancer\\app\\": "",
-            "server\\connector\\": "",
+            "server\\connector\\": ""
         },
         "classmap": [
             "server/controllers",

@@ -12,9 +12,14 @@ class ComposerStaticInit5835ae155b4340cc2ef1492506a4fbdd
     );
 
     public static $prefixLengthsPsr4 = array (
+        's' => 
+        array (
+            'server\\connector\\' => 17,
+        ),
         'c' => 
         array (
             'conveyancer\\tool\\' => 17,
+            'conveyancer\\staticize\\' => 22,
             'conveyancer\\logger\\' => 19,
             'conveyancer\\framework\\' => 22,
             'conveyancer\\config\\' => 19,
@@ -23,9 +28,17 @@ class ComposerStaticInit5835ae155b4340cc2ef1492506a4fbdd
     );
 
     public static $prefixDirsPsr4 = array (
+        'server\\connector\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/',
+        ),
         'conveyancer\\tool\\' => 
         array (
             0 => __DIR__ . '/..' . '/conveyancer/tool/src',
+        ),
+        'conveyancer\\staticize\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/conveyancer/framework/lib',
         ),
         'conveyancer\\logger\\' => 
         array (

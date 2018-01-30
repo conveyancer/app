@@ -17,12 +17,12 @@ logger::test();
 
 tool::test();
 
-// for ($i = 0; $i < 10000; $i++) {
-//     tool::test();
+for ($i = 0; $i < 10000; $i++) {
+    tool::test();
 
-//     logger::test();
-// }
+    logger::test();
+}
 
 $t2 = microtime(true);
 echo '耗时' . round($t2 - START_TIME, 3) . '秒<br>';
-echo 'Now memory_get_usage: ' . memory_get_usage() . '<br />';
+echo 'Now memory_get_usage: ' . get_size(memory_get_usage()) . '<br />';

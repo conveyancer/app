@@ -55,12 +55,12 @@
         "source": {
             "type": "git",
             "url": "https://github.com/conveyancer/framework.git",
-            "reference": "cadd0bd3d56767336aea4ac8f0bde571d73064b8"
+            "reference": "3fc832491ff417d2561a6c7f948a702bf9ff54fa"
         },
         "dist": {
             "type": "zip",
-            "url": "https://files.phpcomposer.com/files/conveyancer/framework/cadd0bd3d56767336aea4ac8f0bde571d73064b8.zip",
-            "reference": "cadd0bd3d56767336aea4ac8f0bde571d73064b8",
+            "url": "https://files.phpcomposer.com/files/conveyancer/framework/3fc832491ff417d2561a6c7f948a702bf9ff54fa.zip",
+            "reference": "3fc832491ff417d2561a6c7f948a702bf9ff54fa",
             "shasum": ""
         },
         "require": {
@@ -69,12 +69,13 @@
             "conveyancer/tool": "dev-master",
             "php": ">=5.6.0"
         },
-        "time": "2018-01-27T14:09:29+00:00",
+        "time": "2018-01-30T07:21:07+00:00",
         "type": "library",
         "installation-source": "source",
         "autoload": {
             "psr-4": {
-                "conveyancer\\framework\\": "src"
+                "conveyancer\\framework\\": "src",
+                "conveyancer\\staticize\\": "lib"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
